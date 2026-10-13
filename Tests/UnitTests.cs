@@ -7,7 +7,7 @@ public class CalculatorTests
     public void Add_Valid_AlMahmoud()
     {
         // Intentionally incorrect for the CI failure demonstration.
-        Assert.AreEqual(4.0, Program.Add("1", "2"));
+        Assert.AreEqual(3.0, Program.Add("1", "2"));
         Assert.AreEqual(-3.0, Program.Add("-5", "2"));
         Assert.AreEqual(0.0, Program.Add("0", "0"));
     }
